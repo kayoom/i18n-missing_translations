@@ -4,7 +4,7 @@ I18n::MissingTranslations is a simple tool that helps with finding missing trans
 
 It consists of three parts:
 
-* a module that plugs into the I18n::ExceptionHandler class and logs I18n::MissingTranslationData exceptions
+* a module that plugs into the I18n::ExceptionHandler class and logs I18n::MissingTranslation exceptions
 * an in-memory logger that simply holds missing translations during a request or test run
 * a middleware that can be used to dump the contents of the logger to a file after each request
 
